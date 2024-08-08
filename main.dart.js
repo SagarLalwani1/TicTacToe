@@ -75808,8 +75808,8 @@ a8W(a){var s,r,q=A.fR(a,!1,t.C0)
 for(s=q.b,r=0;r<s.length;++r){s[r]="";++q.c
 q.an()}q.c=0}}
 A.qU.prototype={
-tl(){var s,r="http://10.0.0.115:3000",q="query",p=A.a6(["transports",A.b(["websocket"],t.s),"autoConnect",!1],t.N,t.z),o=A.iL(r),n=o.gk0()+"://"+o.gnW(o)+":"+o.grn(o),m=o.gh0(o),l=$.ag9.ah(0,n)&&$.ag9.h(0,n).c.ah(0,m),k=p.h(0,"forceNew")===!0||p.h(0,"force new connection")===!0||!1===p.h(0,"multiplex")||l,j=A.aX("io")
-if(k){$.asD().aK(B.n,"ignoring socket cache for http://10.0.0.115:3000",null,null)
+tl(){var s,r="https://10.0.0.115:3000",q="query",p=A.a6(["transports",A.b(["websocket"],t.s),"autoConnect",!1],t.N,t.z),o=A.iL(r),n=o.gk0()+"://"+o.gnW(o)+":"+o.grn(o),m=o.gh0(o),l=$.ag9.ah(0,n)&&$.ag9.h(0,n).c.ah(0,m),k=p.h(0,"forceNew")===!0||p.h(0,"force new connection")===!0||!1===p.h(0,"multiplex")||l,j=A.aX("io")
+if(k){$.asD().aK(B.n,"ignoring socket cache for https://10.0.0.115:3000",null,null)
 j.b=A.amM(p,r)}else{s=$.ag9.h(0,n)
 if(s==null){s=A.amM(p,r)
 $.ag9.l(0,n,s)}j.b=s}if(o.god(o).length!==0&&p.h(0,q)==null)p.l(0,q,o.god(o))
